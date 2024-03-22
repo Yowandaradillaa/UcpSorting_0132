@@ -32,10 +32,10 @@ void input() {
 void selectionSort() {
 	int i, min_index, j, n;
 
-	for (j = 0; j <= n - 2; j++) {
+	for (j = 0; j <= - 2; j++) {
 		(wanda[j] < wanda[n-1]);
 		min_index = j;
-		while (i = j + 1 <= n - 1) {
+		while (i = j + 1 <= - 1) {
 			(wanda[i] < wanda[min_index]);
 			min_index = i;
 		}
