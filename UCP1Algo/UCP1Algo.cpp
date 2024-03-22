@@ -33,9 +33,9 @@ void selectionSort(){
 	int i, min_index, j, n;
 
 	for (j = 0; j <= n - 2; j++) {
-		if(wanda[j]<wanda[min_index]){
+		(wanda[j] < wanda[min_index]){
 		min_index = wanda[j];
-		(i = j + 1 <= n - 1); {
+		while (i = j + 1 <= n - 1); {
 			(wanda[i] < wanda[min_index]);
 			min_index = 1;
 		}
