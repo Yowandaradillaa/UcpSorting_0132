@@ -29,19 +29,19 @@ void input() {
 	}
 }
 
-void selectionSort(){
+void selectionSort() {
 	int i, min_index, j, n;
 
 	for (j = 0; j <= n - 2; j++) {
-		(wanda[j] < wanda[min_index]){
-		min_index = wanda[j];
-		while (i = j + 1 <= n - 1){
+		(wanda[j] < wanda[n-1]);
+		min_index = j;
+		while (i = j + 1 <= n - 1) {
 			(wanda[i] < wanda[min_index]);
-			min_index = 1;
+			min_index = i;
 		}
 		wanda[j], & wanda[min_index];
-		}
 	}
+}
 
 	void display(){
 		cout << endl;
