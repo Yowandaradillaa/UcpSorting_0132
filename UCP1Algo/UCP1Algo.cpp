@@ -35,7 +35,7 @@ void selectionSort(){
 	for (j = 0; j <= n - 2; j++) {
 		(wanda[j] < wanda[min_index]){
 		min_index = wanda[j];
-		while (i = j + 1 <= n - 1); {
+		while (i = j + 1 <= n - 1){
 			(wanda[i] < wanda[min_index]);
 			min_index = 1;
 		}
@@ -57,7 +57,7 @@ void selectionSort(){
 
 	int main(){
 		input();
-		insertionSort();
+		selectionSort();
 		display();
 		system("pause");
 
